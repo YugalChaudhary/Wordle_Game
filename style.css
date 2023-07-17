@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+body{
+    background-color: grey;
+    /* background-image: url(https://st.depositphotos.com/1824344/2386/i/600/depositphotos_23869905-stock-photo-beautiful-butterfly-on-word.jpg);
+    background-size: cover; */
+}
+
+hr {
+    width: 450px;
+}
+
+.container {
+    height: 480px;
+    width: 380px;
+    margin-left: 573px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 60px;
+    width: 60px;
+    margin: 3px 3px;
+    padding: 4px 3px;
+    text-align: center;
+    background-color: rgb(32, 27, 27);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+
+.wrongPosition {
+    background-color: rgb(188, 188, 23);
+    color: white;
+}
+
+.gayab {
+    display: none;
+}
+
+.lastQuotes {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+}
+
+
+
